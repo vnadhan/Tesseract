@@ -1,0 +1,49 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1385112686880
+Build-Id: 1.18 ${buildNumber}
+Build-Jdk: 1.6.0_45
+Built-By: jerseyrobot
+Bundle-Description: Projects that provide additional functionality to je
+ rsey, like integration        with other projects/frameworks.
+Bundle-DocURL: http://www.oracle.com/
+Bundle-License: http://glassfish.java.net/public/CDDL+GPL_1_1.html, http
+ ://glassfish.java.net/public/CDDL+GPL_1_1.html
+Bundle-ManifestVersion: 2
+Bundle-Name: jersey-multipart
+Bundle-SymbolicName: com.sun.jersey.contribs.jersey-multipart
+Bundle-Vendor: Oracle Corporation
+Bundle-Version: 1.18.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.sun.jersey.multipart;uses:="com.sun.jersey.core.head
+ er,com.sun.jersey.core.util,javax.ws.rs.ext,javax.ws.rs.core,org.jvnet.
+ mimepull,com.sun.jersey.spi.container";version="1.18",com.sun.jersey.mu
+ ltipart.file;uses:="javax.ws.rs.core,com.sun.jersey.multipart,com.sun.j
+ ersey.core.header";version="1.18",com.sun.jersey.multipart.impl;uses:="
+ com.sun.jersey.multipart,com.sun.jersey.api.core,com.sun.jersey.server.
+ impl.inject,com.sun.jersey.core.header,com.sun.jersey.spi.inject,com.su
+ n.jersey.api.model,com.sun.jersey.server.impl.model.parameter.multivalu
+ ed,com.sun.jersey.api.container,com.sun.jersey.core.util,javax.ws.rs.ex
+ t,com.sun.jersey.spi,javax.ws.rs.core,com.sun.jersey.core.spi.component
+ ,com.sun.jersey.core.reflection,com.sun.jersey.spi.dispatch,com.sun.jer
+ sey.server.impl.model.method.dispatch,com.sun.jersey.spi.container,java
+ x.ws.rs,org.jvnet.mimepull";version="1.18"
+Implementation-Title: jersey-multipart
+Implementation-Vendor: Oracle Corporation
+Implementation-Vendor-Id: com.sun.jersey.contribs
+Implementation-Version: 1.18
+Import-Package: com.sun.jersey.api.container;version="[1.18,2)";resoluti
+ on:=optional,com.sun.jersey.api.core;version="[1.18,2)";resolution:=opt
+ ional,com.sun.jersey.api.model;version="[1.18,2)";resolution:=optional,
+ com.sun.jersey.core.header;version="[1.18,2)",com.sun.jersey.core.refle
+ ction;version="[1.18,2)",com.sun.jersey.core.spi.component;version="[1.
+ 18,2)",com.sun.jersey.core.util;version="[1.18,2)",com.sun.jersey.serve
+ r.impl.inject;version="[1.18,2)";resolution:=optional,com.sun.jersey.se
+ rver.impl.model.method.dispatch;version="[1.18,2)";resolution:=optional
+ ,com.sun.jersey.server.impl.model.parameter.multivalued;version="[1.18,
+ 2)";resolution:=optional,com.sun.jersey.spi;version="[1.18,2)",com.sun.
+ jersey.spi.container;version="[1.18,2)";resolution:=optional,com.sun.je
+ rsey.spi.dispatch;version="[1.18,2)";resolution:=optional,com.sun.jerse
+ y.spi.inject;version="[1.18,2)",javax.ws.rs;version="[1.1,2)",javax.ws.
+ rs.core;version="[1.1,2)",javax.ws.rs.ext;version="[1.1,2)",org.jvnet.m
+ imepull;version="[1.4,2)"
+Tool: Bnd-1.50.0

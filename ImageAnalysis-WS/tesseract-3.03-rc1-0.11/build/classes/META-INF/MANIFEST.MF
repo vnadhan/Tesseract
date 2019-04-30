@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: JavaCPP Presets for Tesseract
+Implementation-Version: 3.03-rc1-0.11
+Archiver-Version: Plexus Archiver
+Built-By: saudet
+Specification-Vendor: Bytedeco
+Specification-Title: JavaCPP Presets for Tesseract
+Class-Path: ./ javacpp.jar tesseract-linux-arm.jar tesseract-linux-x86
+ .jar tesseract-linux-x86_64.jar tesseract-macosx-x86.jar tesseract-ma
+ cosx-x86_64.jar tesseract-windows-x86.jar tesseract-windows-x86_64.ja
+ r leptonica-1.71-0.11.jar javacpp-0.11.jar
+Implementation-Vendor: Bytedeco
+Name: org/bytedeco/javacpp/presets/
+Created-By: Apache Maven 3.2.2
+Build-Jdk: 1.8.0_31
+Specification-Version: 3.03-rc1-0.11
+

@@ -1,0 +1,129 @@
+import java.io.File;
+
+import org.bytedeco.javacpp.*;
+import org.bytedeco.javacpp.opencv_core.IplImage;
+import org.bytedeco.javacv.Frame;
+import org.bytedeco.javacv.OpenCVFrameConverter;
+import org.bytedeco.javacv.cvkernels;
+import org.junit.Test;
+
+import static org.bytedeco.javacpp.tesseract.*;
+import static org.junit.Assert.assertTrue;
+import static org.bytedeco.javacpp.opencv_imgcodecs.*;
+import static org.bytedeco.javacpp.opencv_highgui.*;
+import static org.bytedeco.javacpp.opencv_core.*;
+import static org.bytedeco.javacpp.opencv_imgproc.*;
+
+public class BasicTesseractExampleTest {
+    
+	
+//    @Test
+//    public void givenTessBaseApi_whenImageOcrd_thenTextDisplayed() throws Exception {
+//        BytePointer outText;
+//
+//        TessBaseAPI api = new TessBaseAPI();
+//        // Initialize tesseract-ocr with English, without specifying tessdata path
+//        if (api.Init(".", "ENG") != 0) {
+//            System.err.println("Could not initialize tesseract.");
+//            System.exit(1);
+//        }
+//
+//        // Open input image with leptonica library
+//        PIX image = pixRead("vishnu.png");
+//        api.SetImage(image);
+//        // need to process the image
+//        api.SetSourceResolution(442);
+//        
+//        // Get OCR result
+//        outText = api.GetUTF8Text();
+//        
+//        String string = outText.getString();
+//        assertTrue(!string.isEmpty());
+//        System.out.println("GetUTF8Text output:\n" + string);
+//        System.out.println("------------------------------------------------------------------------");
+//        //System.out.println("GetUNLVText output:\n" + api.GetUNLVText());
+//        // Destroy used object and release memory
+//        api.End();
+//        outText.deallocate();
+//        pixDestroy(image);
+//    }
+	
+	private IplImage downScaleImage(IplImage srcImage, int percent) {
+		System.out.println("srcImage : " + srcImage.height() + " - " + srcImage.width());
+		
+		IplImage destImage = cvCreateImage(cvSize((srcImage.width()*percent)/100, (srcImage.height()*percent)/100), srcImage.depth(), srcImage.nChannels());
+		
+		cvResize(srcImage, destImage);
+		
+		return destImage;
+		
+	}
+	
+	private IplImage applyEdgeDetection(IplImage srcImage, int percent) {
+		IplImage destImage = downScaleImage(srcImage, percent);
+		
+		IplImage grayImage = cvCreateImage(cvGetSize(destImage), IPL_DEPTH_8U, 1);
+		
+		cvCvtColor(destImage, grayImage, CV_BGR2GRAY);
+		
+		OpenCVFrameConverter.ToMat converterToMat = new OpenCVFrameConverter.ToMat();
+		Frame grayImageFrame = converterToMat.convert(grayImage);
+		Mat grayImageMat = converterToMat.convert(grayImageFrame);
+		
+		GaussianBlur(grayImageMat, grayImageMat, new Size(5, 5), 0.0, 0.0, BORDER_DEFAULT);
+		
+		destImage = converterToMat.convertToIplImage(grayImageFrame);
+		
+		
+		cvErode(destImage, destImage);
+		cvDilate(destImage, destImage);
+	
+		cvCanny(destImage, destImage, 75.0, 200.0);
+		
+		System.out.println("destImage : " + destImage.height() + " - " + destImage.width());
+		File f = new File(System.getProperty("user.home"));
+		System.out.println(System.getProperty("user.home"));
+		
+		cvSaveImage(f.getAbsolutePath(), destImage);
+		System.out.println("done");
+		return destImage;
+	}
+	
+	@Test
+    public void givenTessBaseApi_whenImageOcrd_thenTextDisplayed() throws Exception {
+        BytePointer outText;
+
+        TessBaseAPI api = new TessBaseAPI();
+        // Initialize tesseract-ocr with English, without specifying tessdata path
+        if (api.Init(".", "ENG") != 0) {
+            System.err.println("Could not initialize tesseract.");
+            System.exit(1);
+        }
+        //System.out.println();
+        
+        IplImage img = cvLoadImage("name.jpg");
+        System.out.println(img.width() + "- " + img.height());
+        
+        applyEdgeDetection(downScaleImage(img, 30), 30);
+        
+        
+        // Open input image with leptonica library
+        //PIX image = pixRead();
+       // api.SetImage(image);
+        // need to process the image
+//        api.SetSourceResolution(442);
+//        
+//        // Get OCR result
+//        outText = api.GetUTF8Text();
+//        
+//        String string = outText.getString();
+//        assertTrue(!string.isEmpty());
+//        System.out.println("GetUTF8Text output:\n" + string);
+//        System.out.println("------------------------------------------------------------------------");
+//        //System.out.println("GetUNLVText output:\n" + api.GetUNLVText());
+//        // Destroy used object and release memory
+//        api.End();
+//        outText.deallocate();
+//        pixDestroy(image);
+    }
+}

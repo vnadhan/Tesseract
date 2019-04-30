@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: m_potociar
+Build-Jdk: 1.6.0_30
+Build-Id: 03/09/2012 07:10 PM
+Extension-Name: javax.ws.rs
+Specification-Title: Java API for RESTful Web Services (JAX-RS)
+Specification-Vendor: Oracle Corporation
+Specification-Version: 2.0-m02
+

@@ -1,0 +1,217 @@
+import org.bytedeco.javacpp.*;
+import org.bytedeco.javacpp.lept.*;
+import org.bytedeco.javacpp.opencv_core.CvSeq;
+import org.bytedeco.javacpp.opencv_core.IplImage;
+import org.bytedeco.javacv.Frame;
+import org.bytedeco.javacv.OpenCVFrameConverter;
+import org.bytedeco.javacv.cvkernels;
+import org.junit.Test;
+
+import static org.bytedeco.javacpp.tesseract.*;
+import static org.junit.Assert.assertTrue;
+import static org.bytedeco.javacpp.lept.pixRead;
+import static org.bytedeco.javacpp.opencv_imgcodecs.*;
+import static org.bytedeco.javacpp.opencv_highgui.*;
+import static org.bytedeco.javacpp.opencv_core.*;
+import static org.bytedeco.javacpp.opencv_imgproc.*;
+
+public class BasicTesseractExampleTest {
+    
+	
+//    @Test
+//    public void givenTessBaseApi_whenImageOcrd_thenTextDisplayed() throws Exception {
+//        BytePointer outText;
+//
+//        TessBaseAPI api = new TessBaseAPI();
+//        // Initialize tesseract-ocr with English, without specifying tessdata path
+//        if (api.Init(".", "ENG") != 0) {
+//            System.err.println("Could not initialize tesseract.");
+//            System.exit(1);
+//        }
+//
+//        // Open input image with leptonica library
+//        PIX image = pixRead("vishnu.png");
+//        api.SetImage(image);
+//        // need to process the image
+//        api.SetSourceResolution(442);
+//        
+//        // Get OCR result
+//        outText = api.GetUTF8Text();
+//        
+//        String string = outText.getString();
+//        assertTrue(!string.isEmpty());
+//        System.out.println("GetUTF8Text output:\n" + string);
+//        System.out.println("------------------------------------------------------------------------");
+//        //System.out.println("GetUNLVText output:\n" + api.GetUNLVText());
+//        // Destroy used object and release memory
+//        api.End();
+//        outText.deallocate();
+//        pixDestroy(image);
+//    }
+	
+	private IplImage downScaleImage(IplImage srcImage, int percent) {
+		System.out.println("srcImage : " + srcImage.height() + " - " + srcImage.width());
+		
+		IplImage destImage = cvCreateImage(cvSize((srcImage.width()*percent)/100, (srcImage.height()*percent)/100), srcImage.depth(), srcImage.nChannels());
+		
+		cvResize(srcImage, destImage);
+		
+		return destImage;
+		
+	}
+	
+	private IplImage applyEdgeDetection(IplImage srcImage, int percent) {
+		IplImage destImage = downScaleImage(srcImage, percent);
+		
+		IplImage grayImage = cvCreateImage(cvGetSize(destImage), IPL_DEPTH_8U, 1);
+		
+		cvCvtColor(destImage, grayImage, CV_BGR2GRAY);
+		
+		OpenCVFrameConverter.ToMat converterToMat = new OpenCVFrameConverter.ToMat();
+		Frame grayImageFrame = converterToMat.convert(grayImage);
+		Mat grayImageMat = converterToMat.convert(grayImageFrame);
+		
+		GaussianBlur(grayImageMat, grayImageMat, new Size(5, 5), 0.0, 0.0, BORDER_DEFAULT);
+		
+		destImage = converterToMat.convertToIplImage(grayImageFrame);
+		
+		
+		cvErode(destImage, destImage);
+		cvDilate(destImage, destImage);
+	
+		cvCanny(destImage, destImage, 75.0, 200.0);
+		System.out.println("done");
+		//cvSaveImage("abc-cannyedgedetection.jpg", destImage);
+		
+		//cvReleaseImage(destImage);
+		
+		System.out.println("done");
+		return destImage;
+	}
+	
+	private CvSeq findLargestSquareOnCanyDetectedImage(IplImage cannyEdgeDetectedImage) {
+		IplImage foundedCountoursImage = cvCloneImage(cannyEdgeDetectedImage);
+		CvMemStorage memory = CvMemStorage.create();
+		CvSeq contours = new CvSeq();
+		cvFindContours(foundedCountoursImage, memory, contours, Loader.sizeof(CvContour.class), CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE
+				, cvPoint(0,0));
+		
+		int maxWidth = 0;
+		int maxHeight = 0;
+		CvRect contour = null;
+		CvSeq seqFounded = null;
+		CvSeq nextSeq = new CvSeq();
+		
+		for(nextSeq = contours; nextSeq != null; nextSeq = nextSeq.h_next()) {
+			contour = cvBoundingRect(nextSeq, 0);
+			if(contour.width() >= maxWidth && contour.height() >= maxHeight) {
+				maxWidth = contour.width();
+				maxHeight = contour.height();
+				seqFounded = nextSeq;
+			}
+		}
+		CvSeq result = cvApproxPoly(seqFounded, Loader.sizeof(CvContour.class), memory, CV_POLY_APPROX_DP, cvContourPerimeter(seqFounded)*0.02,0);
+		
+		for(int i = 0; i<result.total();i++){
+			CvPoint v = new CvPoint(cvGetSeqElem(result,i));
+			cvDrawCircle(foundedCountoursImage, v, 5, CvScalar.BLUE, 20, 8, 0);
+			System.out.println("found point");
+		}
+		
+		return result;
+	}
+	
+	private IplImage applyPerspectiveTransformThresholdOnOriginalImage(IplImage srcImage, CvSeq contour, int percent){
+		IplImage wrapImage = cvCloneImage(srcImage);
+		
+		for(int i = 0; i < contour.total(); i++){
+			CvPoint point = new CvPoint(cvGetSeqElem(contour, i));
+			point.x((int) (point.x() *100)/percent);
+			point.y((int) (point.y() *100)/percent);
+		}
+		
+		CvPoint topRight = new CvPoint(cvGetSeqElem(contour, 0));
+		CvPoint topLeft = new CvPoint(cvGetSeqElem(contour, 1));
+		CvPoint bottomLeft = new CvPoint(cvGetSeqElem(contour, 2));
+		CvPoint bottomRight = new CvPoint(cvGetSeqElem(contour, 3));
+		
+		int resultWidth = (int)(topRight.x() - topLeft.x());
+		int bottomWidth = (int)(bottomRight.x() - bottomLeft.x());
+		int resultHeight = (int)(bottomLeft.y() - topLeft.y());
+		int bottomHeight = (int)(bottomRight.y() - bottomLeft.y());
+		
+		if(bottomHeight < resultHeight) {
+			resultHeight = bottomHeight;
+		}
+		
+		float[] sourcePts = { topLeft.x(), topLeft.y(),topRight.x(), topRight.y(), bottomLeft.x(), bottomLeft.y(), 
+				bottomRight.x(), bottomRight.y() };
+		
+		float[] destPts = {0,0,resultWidth, 0,0, resultHeight, resultWidth, resultHeight};
+		
+		CvMat homography = cvCreateMat(3, 3, CV_32FC1);
+		cvGetPerspectiveTransform(sourcePts, destPts, homography);
+		System.out.println(homography.toString());
+		
+		IplImage destImage = cvCloneImage(wrapImage);
+		cvWarpPerspective(wrapImage, destImage, homography, CV_INTER_LINEAR, CvScalar.ZERO);
+		
+		return cropImage(destImage, 0, 0, resultWidth, resultHeight);
+		
+	}
+	
+	private IplImage cropImage(IplImage srcImage, int x, int y, int w, int h){
+		cvSetImageROI(srcImage, cvRect(x, y, h, w);
+		IplImage dest = cvCloneImage(srcImage);
+		cvCopy(srcImage, dest);
+		return dest;
+	}
+	
+	private IplImage clean(IplImage src){
+		IplImage destImage = cvCreateImage(cvGetSize(src), IPL_DEPTH_8U, 1);
+		cvCvtColor(src, destImage, CV_BGR2GRAY);
+		cvSmooth(destImage, destImage, CV_MEDIAN, 3, 0, 0, 0);
+		cvThreshold(destImage, destImage, 0, 255, CV_THRESH_OTSU);
+		//cvSaveImage("img-cleaned.jpg", destImage);
+		return destImage;
+		
+	}
+	@Test
+    public void givenTessBaseApi_whenImageOcrd_thenTextDisplayed() throws Exception {
+        BytePointer outText;
+
+        TessBaseAPI api = new TessBaseAPI();
+        // Initialize tesseract-ocr with English, without specifying tessdata path
+        if (api.Init(".", "ENG") != 0) {
+            System.err.println("Could not initialize tesseract.");
+            System.exit(1);
+        }
+        
+        IplImage img = cvLoadImage("bill.jpg");
+        
+        System.out.println(img.width() + "- " + img.height());
+        
+        IplImage finalBeforeOcr = clean(applyPerspectiveTransformThresholdOnOriginalImage(img, findLargestSquareOnCanyDetectedImage(applyEdgeDetection(downScaleImage(img, 100), 100)), 100));
+        cvSaveImage("img-cleaned.jpg", finalBeforeOcr);
+        //System.out.println(finalBeforeOcr.address());
+        
+        // Open input image with leptonica library
+        PIX image = pixRead("img-cleaned.jpg");
+        api.SetImage(image);
+       //  need to process the image
+        //api.SetSourceResolution(442);
+        
+        // Get OCR result
+        outText = api.GetUTF8Text();
+        
+        String string = outText.getString();
+        assertTrue(!string.isEmpty());
+        System.out.println("GetUTF8Text output:\n" + string);
+        System.out.println("------------------------------------------------------------------------");
+        //System.out.println("GetUNLVText output:\n" + api.GetUNLVText());
+        // Destroy used object and release memory
+        api.End();
+        outText.deallocate();
+        //pixDestroy(image);
+    }
+}

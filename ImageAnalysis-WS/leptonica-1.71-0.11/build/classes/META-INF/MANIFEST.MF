@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: JavaCPP Presets for Leptonica
+Implementation-Version: 1.71-0.11
+Archiver-Version: Plexus Archiver
+Built-By: saudet
+Specification-Vendor: Bytedeco
+Specification-Title: JavaCPP Presets for Leptonica
+Class-Path: ./ javacpp.jar leptonica-linux-arm.jar leptonica-linux-x86
+ .jar leptonica-linux-x86_64.jar leptonica-macosx-x86.jar leptonica-ma
+ cosx-x86_64.jar leptonica-windows-x86.jar leptonica-windows-x86_64.ja
+ r javacpp-0.11.jar
+Implementation-Vendor: Bytedeco
+Name: org/bytedeco/javacpp/presets/
+Created-By: Apache Maven 3.2.2
+Build-Jdk: 1.8.0_31
+Specification-Version: 1.71-0.11
+

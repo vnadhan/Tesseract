@@ -1,0 +1,5 @@
+INDEX VERSION 1.127
+C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3818451235.index
+\BasicTesseractExampleA\src
+C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2483430355.index
+\BasicTesseractExampleB\src

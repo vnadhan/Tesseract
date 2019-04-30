@@ -1,0 +1,966 @@
+2016-07-29 11:57:34,014 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-29 11:57:35,140 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.03-rc1-0.11/tesseract-3.03-rc1-0.11.pom
+2016-07-29 11:57:35,717 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.03-rc1-0.11/tesseract-3.03-rc1-0.11.pom
+2016-07-29 11:57:36,006 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/0.11/javacpp-presets-0.11.pom
+2016-07-29 11:57:36,780 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/0.11/javacpp-presets-0.11.pom
+2016-07-29 11:57:37,065 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.71-0.11/leptonica-1.71-0.11.pom
+2016-07-29 11:57:37,650 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.71-0.11/leptonica-1.71-0.11.pom
+2016-07-29 11:57:37,935 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp/0.11/javacpp-0.11.pom
+2016-07-29 11:57:38,552 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp/0.11/javacpp-0.11.pom
+2016-07-29 11:57:38,852 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.pom
+2016-07-29 11:57:39,336 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.pom
+2016-07-29 11:57:39,958 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.03-rc1-0.11/tesseract-3.03-rc1-0.11.jar
+2016-07-29 11:57:40,743 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.03-rc1-0.11/tesseract-3.03-rc1-0.11.jar
+2016-07-29 11:57:40,971 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.71-0.11/leptonica-1.71-0.11.jar
+2016-07-29 11:57:42,344 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.71-0.11/leptonica-1.71-0.11.jar
+2016-07-29 11:57:42,576 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.71-0.11/leptonica-1.71-0.11-windows-x86_64.jar
+2016-07-29 11:58:00,782 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.71-0.11/leptonica-1.71-0.11-windows-x86_64.jar
+2016-07-29 11:58:01,016 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp/0.11/javacpp-0.11.jar
+2016-07-29 11:58:02,521 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp/0.11/javacpp-0.11.jar
+2016-07-29 11:58:02,737 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.03-rc1-0.11/tesseract-3.03-rc1-0.11-windows-x86_64.jar
+2016-07-29 11:58:11,884 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.03-rc1-0.11/tesseract-3.03-rc1-0.11-windows-x86_64.jar
+2016-07-29 11:58:12,113 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.jar
+2016-07-29 11:58:14,138 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11.jar
+2016-07-29 11:58:14,776 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2016-07-29 11:58:15,508 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2016-07-29 11:58:16,556 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2016-07-29 11:58:17,712 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-29 11:58:20,176 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BasicTesseractExample/src/main/java
+2016-07-29 11:58:20,191 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BasicTesseractExample/src/test/java
+2016-07-29 11:58:23,798 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 61 sec
+2016-07-29 11:58:26,493 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-29 11:58:26,927 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 11:58:26,942 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 11:58:26,973 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 11:58:27,005 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 12:00:48,577 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-29 12:00:48,981 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:00:49,012 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 12:00:49,029 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:00:49,047 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 12:00:50,288 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:00:50,299 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 12:00:50,303 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:00:50,317 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 12:02:18,505 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-29 12:02:19,046 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:02:19,077 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 12:02:19,093 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:02:19,115 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 12:03:40,213 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:03:40,233 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 12:03:40,238 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:03:40,274 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 12:03:47,626 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-29 12:03:48,009 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:03:48,027 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 12:03:48,058 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:03:48,074 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 12:03:53,491 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-29 12:03:53,860 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:03:53,889 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 12:03:53,906 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:03:53,938 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 12:03:56,053 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-29 12:03:56,484 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:03:56,525 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 12:03:56,544 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:03:56,567 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 12:04:00,477 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:04:00,495 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 12:04:00,495 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:04:00,511 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 12:18:40,510 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.03-rc1-0.11/tesseract-3.03-rc1-0.11-sources.jar
+2016-07-29 12:18:41,474 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.03-rc1-0.11/tesseract-3.03-rc1-0.11-sources.jar
+2016-07-29 12:18:41,912 [Worker-9] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.bytedeco.javacpp-presets:tesseract:3.03-rc1-0.11
+2016-07-29 12:18:42,313 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:18:42,347 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 12:18:42,369 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:18:42,405 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 12:42:12,558 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:42:12,592 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 12:42:12,614 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 12:42:12,639 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 14:47:16,242 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:47:16,262 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 14:47:16,284 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:47:16,320 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 14:47:38,257 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:47:38,280 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 14:47:38,294 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:47:38,317 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 14:48:35,124 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:48:35,151 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 14:48:35,173 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:48:35,199 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 14:48:40,926 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:48:40,962 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 14:48:40,980 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:48:41,010 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 14:52:19,317 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:52:19,346 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 14:52:19,367 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:52:19,394 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 14:52:33,788 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:52:33,814 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 14:52:33,833 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:52:33,856 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 14:52:37,414 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:52:37,439 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 14:52:37,454 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:52:37,478 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 14:56:25,423 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:56:25,454 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 14:56:25,475 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:56:25,502 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 14:56:44,277 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:56:44,302 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 14:56:44,316 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:56:44,341 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 14:56:52,298 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:56:52,322 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 14:56:52,336 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:56:52,359 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 14:57:41,310 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:57:41,343 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 14:57:41,364 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 14:57:41,392 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:03:03,453 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:03:03,465 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:03:03,473 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:03:03,489 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:03:16,526 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:03:16,551 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:03:16,570 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:03:16,594 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:07:10,243 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:07:10,259 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:07:10,271 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:07:10,295 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:07:23,646 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:07:23,671 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:07:23,687 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:07:23,711 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:10:59,620 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:10:59,643 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:10:59,659 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:10:59,683 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:11:06,824 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:11:06,851 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:11:06,863 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:11:06,887 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:11:17,884 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:11:17,908 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:11:17,920 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:11:17,944 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:11:49,604 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:11:49,628 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:11:49,644 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:11:49,671 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:12:20,093 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:12:20,117 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:12:20,129 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:12:20,153 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:15:48,510 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:15:48,538 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:15:48,554 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:15:48,578 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:15:57,410 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:15:57,435 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:15:57,448 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:15:57,474 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:19:08,545 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:19:08,567 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:19:08,579 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:19:08,603 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:19:13,334 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:19:13,356 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:19:13,368 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:19:13,404 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:20:36,729 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:20:36,752 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:20:36,764 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:20:36,788 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:21:50,712 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:21:50,732 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:21:50,752 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:21:50,776 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:22:25,159 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:22:25,181 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:22:25,201 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:22:25,229 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:24:27,970 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:24:28,002 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:24:28,022 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:24:28,052 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:24:52,127 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:24:52,151 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:24:52,163 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:24:52,188 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:25:57,083 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:25:57,108 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:25:57,123 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:25:57,143 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-29 15:26:39,204 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:26:39,232 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-29 15:26:39,245 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-29 15:26:39,269 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 07:50:02,668 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 07:50:02,713 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 07:50:02,720 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 07:50:02,720 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 09:28:45,835 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 09:28:45,901 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 09:28:45,907 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 09:28:45,928 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 09:33:43,704 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-30 09:33:45,447 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/tesseract/3.03-rc1-0.11/tesseract-3.03-rc1-0.11.pom
+2016-07-30 09:33:45,470 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.bytedeco:tesseract:jar:3.03-rc1-0.11 is missing, no dependency information available
+2016-07-30 09:33:46,496 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/tesseract/3.03-rc1-0.11/tesseract-3.03-rc1-0.11.jar
+2016-07-30 09:33:47,766 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 09:33:47,782 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 09:33:47,786 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 09:33:47,799 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 09:33:49,216 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacv/1.1/javacv-1.1.pom
+2016-07-30 09:33:49,452 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-30 09:33:50,179 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacv/1.1/javacv-1.1.pom
+2016-07-30 09:33:50,545 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp/1.1/javacpp-1.1.pom
+2016-07-30 09:33:51,250 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp/1.1/javacpp-1.1.pom
+2016-07-30 09:33:51,626 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/opencv/3.0.0-1.1/opencv-3.0.0-1.1.pom
+2016-07-30 09:33:52,280 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/opencv/3.0.0-1.1/opencv-3.0.0-1.1.pom
+2016-07-30 09:33:52,666 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/1.1/javacpp-presets-1.1.pom
+2016-07-30 09:33:53,399 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/1.1/javacpp-presets-1.1.pom
+2016-07-30 09:33:53,785 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/ffmpeg/2.8.1-1.1/ffmpeg-2.8.1-1.1.pom
+2016-07-30 09:33:54,417 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/ffmpeg/2.8.1-1.1/ffmpeg-2.8.1-1.1.pom
+2016-07-30 09:33:54,865 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flycapture/2.8.3.1-1.1/flycapture-2.8.3.1-1.1.pom
+2016-07-30 09:33:55,501 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flycapture/2.8.3.1-1.1/flycapture-2.8.3.1-1.1.pom
+2016-07-30 09:33:55,895 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libdc1394/2.2.3-1.1/libdc1394-2.2.3-1.1.pom
+2016-07-30 09:33:56,548 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libdc1394/2.2.3-1.1/libdc1394-2.2.3-1.1.pom
+2016-07-30 09:33:56,945 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.1/libfreenect-0.5.3-1.1.pom
+2016-07-30 09:33:57,614 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.1/libfreenect-0.5.3-1.1.pom
+2016-07-30 09:33:58,045 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/videoinput/0.200-1.1/videoinput-0.200-1.1.pom
+2016-07-30 09:33:58,699 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/videoinput/0.200-1.1/videoinput-0.200-1.1.pom
+2016-07-30 09:33:59,085 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.1/artoolkitplus-2.3.1-1.1.pom
+2016-07-30 09:33:59,727 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.1/artoolkitplus-2.3.1-1.1.pom
+2016-07-30 09:34:00,125 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flandmark/1.07-1.1/flandmark-1.07-1.1.pom
+2016-07-30 09:34:00,853 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flandmark/1.07-1.1/flandmark-1.07-1.1.pom
+2016-07-30 09:34:01,435 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacv/1.1/javacv-1.1.jar
+2016-07-30 09:34:04,139 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacv/1.1/javacv-1.1.jar
+2016-07-30 09:34:04,495 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp/1.1/javacpp-1.1.jar
+2016-07-30 09:34:06,187 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp/1.1/javacpp-1.1.jar
+2016-07-30 09:34:06,494 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/opencv/3.0.0-1.1/opencv-3.0.0-1.1.jar
+2016-07-30 09:34:09,098 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/opencv/3.0.0-1.1/opencv-3.0.0-1.1.jar
+2016-07-30 09:34:09,407 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/opencv/3.0.0-1.1/opencv-3.0.0-1.1-windows-x86_64.jar
+2016-07-30 09:34:23,218 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/opencv/3.0.0-1.1/opencv-3.0.0-1.1-windows-x86_64.jar
+2016-07-30 09:34:23,525 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/ffmpeg/2.8.1-1.1/ffmpeg-2.8.1-1.1.jar
+2016-07-30 09:34:24,707 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/ffmpeg/2.8.1-1.1/ffmpeg-2.8.1-1.1.jar
+2016-07-30 09:34:25,425 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/ffmpeg/2.8.1-1.1/ffmpeg-2.8.1-1.1-windows-x86_64.jar
+2016-07-30 09:34:49,597 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/ffmpeg/2.8.1-1.1/ffmpeg-2.8.1-1.1-windows-x86_64.jar
+2016-07-30 09:34:49,915 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flycapture/2.8.3.1-1.1/flycapture-2.8.3.1-1.1.jar
+2016-07-30 09:34:50,734 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flycapture/2.8.3.1-1.1/flycapture-2.8.3.1-1.1.jar
+2016-07-30 09:34:51,044 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flycapture/2.8.3.1-1.1/flycapture-2.8.3.1-1.1-windows-x86_64.jar
+2016-07-30 09:34:51,997 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flycapture/2.8.3.1-1.1/flycapture-2.8.3.1-1.1-windows-x86_64.jar
+2016-07-30 09:34:52,314 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libdc1394/2.2.3-1.1/libdc1394-2.2.3-1.1.jar
+2016-07-30 09:34:53,210 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libdc1394/2.2.3-1.1/libdc1394-2.2.3-1.1.jar
+2016-07-30 09:34:53,514 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libdc1394/2.2.3-1.1/libdc1394-2.2.3-1.1-windows-x86_64.jar
+2016-07-30 09:34:54,157 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libdc1394/2.2.3-1.1/libdc1394-2.2.3-1.1-windows-x86_64.jar
+2016-07-30 09:34:54,485 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.1/libfreenect-0.5.3-1.1.jar
+2016-07-30 09:34:55,406 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.1/libfreenect-0.5.3-1.1.jar
+2016-07-30 09:34:55,714 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.1/libfreenect-0.5.3-1.1-windows-x86_64.jar
+2016-07-30 09:34:56,678 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.1/libfreenect-0.5.3-1.1-windows-x86_64.jar
+2016-07-30 09:34:56,985 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/videoinput/0.200-1.1/videoinput-0.200-1.1.jar
+2016-07-30 09:34:57,796 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/videoinput/0.200-1.1/videoinput-0.200-1.1.jar
+2016-07-30 09:34:58,114 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/videoinput/0.200-1.1/videoinput-0.200-1.1-windows-x86_64.jar
+2016-07-30 09:34:58,897 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/videoinput/0.200-1.1/videoinput-0.200-1.1-windows-x86_64.jar
+2016-07-30 09:34:59,204 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.1/artoolkitplus-2.3.1-1.1.jar
+2016-07-30 09:35:00,096 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.1/artoolkitplus-2.3.1-1.1.jar
+2016-07-30 09:35:00,424 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.1/artoolkitplus-2.3.1-1.1-windows-x86_64.jar
+2016-07-30 09:35:01,406 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.1/artoolkitplus-2.3.1-1.1-windows-x86_64.jar
+2016-07-30 09:35:01,715 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flandmark/1.07-1.1/flandmark-1.07-1.1.jar
+2016-07-30 09:35:02,500 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flandmark/1.07-1.1/flandmark-1.07-1.1.jar
+2016-07-30 09:35:02,814 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flandmark/1.07-1.1/flandmark-1.07-1.1-windows-x86_64.jar
+2016-07-30 09:35:03,596 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/flandmark/1.07-1.1/flandmark-1.07-1.1-windows-x86_64.jar
+2016-07-30 09:35:09,359 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 09:35:09,386 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 09:35:09,404 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 09:35:09,429 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 09:35:11,234 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.72-1.1/leptonica-1.72-1.1.pom
+2016-07-30 09:35:11,286 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-30 09:35:12,098 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.72-1.1/leptonica-1.72-1.1.pom
+2016-07-30 09:35:12,664 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.72-1.1/leptonica-1.72-1.1.jar
+2016-07-30 09:35:13,841 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.72-1.1/leptonica-1.72-1.1.jar
+2016-07-30 09:35:14,254 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.72-1.1/leptonica-1.72-1.1-windows-x86_64.jar
+2016-07-30 09:35:18,427 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/leptonica/1.72-1.1/leptonica-1.72-1.1-windows-x86_64.jar
+2016-07-30 09:35:19,372 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 09:35:19,396 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 09:35:19,412 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 09:35:19,424 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 09:35:21,244 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 09:35:21,256 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 09:35:21,269 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 09:35:21,289 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 09:36:16,017 [Worker-20] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-07-30 09:36:16,309 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-30 09:36:17,414 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BasicTesseractExample/src/main/java
+2016-07-30 09:36:17,428 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BasicTesseractExample/src/test/java
+2016-07-30 09:36:18,804 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-30 09:36:19,206 [Worker-20] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2016-07-30 09:36:20,030 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-30 09:38:19,452 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-30 09:38:20,116 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.04-1.1/tesseract-3.04-1.1.pom
+2016-07-30 09:38:20,930 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.04-1.1/tesseract-3.04-1.1.pom
+2016-07-30 09:38:21,556 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.04-1.1/tesseract-3.04-1.1.jar
+2016-07-30 09:38:22,487 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.04-1.1/tesseract-3.04-1.1.jar
+2016-07-30 09:38:23,186 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.04-1.1/tesseract-3.04-1.1-windows-x86_64.jar
+2016-07-30 09:38:26,250 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/bytedeco/javacpp-presets/tesseract/3.04-1.1/tesseract-3.04-1.1-windows-x86_64.jar
+2016-07-30 09:47:31,157 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 09:47:31,192 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 09:47:31,216 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 09:47:31,234 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:09:39,853 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:09:39,873 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:09:39,877 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:09:39,893 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:10:21,772 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:10:21,796 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:10:21,811 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:10:21,820 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:14:33,748 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:14:33,764 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:14:33,769 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:14:33,784 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:20:01,835 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:20:01,864 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:20:01,882 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:20:01,897 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:22:27,814 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:22:27,827 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:22:27,831 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:22:27,844 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:22:39,021 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:22:39,048 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:22:39,063 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:22:39,077 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:24:39,351 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:24:39,361 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:24:39,365 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:24:39,381 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:25:24,629 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:25:24,653 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:25:24,673 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:25:24,685 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:30:35,472 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:30:35,488 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:30:35,492 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:30:35,508 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:31:02,261 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:31:02,289 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:31:02,312 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:31:02,325 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:32:00,076 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:32:00,094 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:32:00,098 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:32:00,112 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:33:35,421 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:33:35,449 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:33:35,465 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:33:35,477 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:34:52,084 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:34:52,096 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:34:52,100 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:34:52,112 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 10:35:39,477 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:35:39,501 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 10:35:39,513 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 10:35:39,525 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 11:04:46,463 [Worker-64] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-30 11:04:48,171 [Worker-64] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/mail/mail/1.4.3/mail-1.4.3.pom
+2016-07-30 11:04:48,851 [Worker-64] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/mail/mail/1.4.3/mail-1.4.3.pom
+2016-07-30 11:04:49,241 [Worker-64] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/mail/all/1.4.3/all-1.4.3.pom
+2016-07-30 11:04:49,973 [Worker-64] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/mail/all/1.4.3/all-1.4.3.pom
+2016-07-30 11:04:50,591 [Worker-64] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/mail/mail/1.4.3/mail-1.4.3.jar
+2016-07-30 11:04:53,844 [Worker-64] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/mail/mail/1.4.3/mail-1.4.3.jar
+2016-07-30 11:04:53,980 [Worker-61] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-07-30 11:04:54,151 [Worker-64] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.jar
+2016-07-30 11:04:54,245 [Worker-61] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-30 11:04:54,935 [Worker-64] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.jar
+2016-07-30 11:04:57,111 [Worker-61] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BasicTesseractExample/src/main/java
+2016-07-30 11:04:57,125 [Worker-61] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BasicTesseractExample/src/test/java
+2016-07-30 11:04:58,080 [Worker-61] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2016-07-30 11:04:59,409 [Worker-67] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-30 11:05:23,796 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 11:05:23,816 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 11:05:23,828 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 11:05:23,849 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 11:08:29,822 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 11:08:29,849 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 11:08:29,866 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 11:08:29,890 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 11:14:29,898 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 11:14:29,924 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 11:14:29,944 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 11:14:29,969 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 11:23:42,993 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 11:23:43,022 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 11:23:43,039 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 11:23:43,065 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 11:31:45,802 [Worker-67] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration BasicTesseractExampleTest references closed project BasicTesseractExample
+org.eclipse.core.runtime.CoreException: Launch configuration BasicTesseractExampleTest references closed project BasicTesseractExample
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1278) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2016-07-30 11:31:45,823 [Worker-67] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration BasicTesseractExampleTest references closed project BasicTesseractExample
+org.eclipse.core.runtime.CoreException: Launch configuration BasicTesseractExampleTest references closed project BasicTesseractExample
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1278) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2016-07-30 11:31:45,874 [Worker-67] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration BasicTesseractExampleTest references closed project BasicTesseractExample
+org.eclipse.core.runtime.CoreException: Launch configuration BasicTesseractExampleTest references closed project BasicTesseractExample
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1278) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2162) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2016-07-30 11:31:45,919 [Worker-67] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration untouchedTess references closed project BasicTesseractExample
+org.eclipse.core.runtime.CoreException: Launch configuration untouchedTess references closed project BasicTesseractExample
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1278) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2016-07-30 11:31:45,935 [Worker-67] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration untouchedTess references closed project BasicTesseractExample
+org.eclipse.core.runtime.CoreException: Launch configuration untouchedTess references closed project BasicTesseractExample
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1278) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2016-07-30 11:31:46,004 [Worker-67] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration untouchedTess references closed project BasicTesseractExample
+org.eclipse.core.runtime.CoreException: Launch configuration untouchedTess references closed project BasicTesseractExample
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1278) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2162) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2016-07-30 11:31:46,016 [Worker-67] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SendEmail references closed project BasicTesseractExample
+org.eclipse.core.runtime.CoreException: Launch configuration SendEmail references closed project BasicTesseractExample
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1278) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2016-07-30 11:31:46,029 [Worker-67] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SendEmail references closed project BasicTesseractExample
+org.eclipse.core.runtime.CoreException: Launch configuration SendEmail references closed project BasicTesseractExample
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1278) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2016-07-30 11:31:46,053 [Worker-67] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SendEmail references closed project BasicTesseractExample
+org.eclipse.core.runtime.CoreException: Launch configuration SendEmail references closed project BasicTesseractExample
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1278) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2162) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2016-07-30 11:39:25,944 [Worker-75] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-30 11:49:50,989 [Worker-130] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 11:49:57,977 [Worker-130] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BasicTesseractExampleB/src
+2016-07-30 11:49:57,978 [Worker-130] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /BasicTesseractExampleB/src overlaps with sources folder /BasicTesseractExampleB/src
+2016-07-30 11:49:58,056 [Worker-133] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 11:49:58,184 [Worker-130] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /BasicTesseractExampleB/src/test/java because it overlaps with /BasicTesseractExampleB/src
+2016-07-30 11:50:01,981 [Worker-132] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 11:50:04,934 [Worker-130] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-07-30 11:50:05,231 [Worker-130] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 11:50:06,552 [Worker-130] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BasicTesseractExampleB/src
+2016-07-30 11:50:06,586 [Worker-130] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /BasicTesseractExampleB/src overlaps with sources folder /BasicTesseractExampleB/src
+2016-07-30 11:50:06,642 [Worker-130] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /BasicTesseractExampleB/src/test/java because it overlaps with /BasicTesseractExampleB/src
+2016-07-30 11:50:06,684 [Worker-133] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 11:50:08,830 [Worker-135] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 11:50:09,383 [Worker-130] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for BasicTesseractExampleB
+2016-07-30 11:50:09,399 [Worker-130] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2016-07-30 11:51:01,859 [Worker-79] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:558) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:567) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:511) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:466) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:336) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1$1.call(ProjectRegistryRefreshJob.java:95) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1344) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:93) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependency> must match start tag name <dependencies> from line 7 (position: START_TAG seen ...<dependencies></dependency>... @7:30) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:127) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:91) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:556) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	... 18 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependency> must match start tag name <dependencies> from line 7 (position: START_TAG seen ...<dependencies></dependency>... @7:30) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:1724) ~[plexus-utils-3.0.17.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1210) ~[plexus-utils-3.0.17.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1131) ~[plexus-utils-3.0.17.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1116) ~[plexus-utils-3.0.17.jar:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2193) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:122) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	... 20 common frames omitted
+2016-07-30 11:51:38,941 [Worker-96] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml: end tag name </dependency> must match start tag name <dependencies> from line 7 (position: START_TAG seen ...<dependencies></dependency>... @7:28)  @ line 7, column 28
+ for project  at C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml: end tag name </dependency> must match start tag name <dependencies> from line 7 (position: START_TAG seen ...<dependencies></dependency>... @7:28)  @ line 7, column 28
+ for project  at C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:152) ~[maven-core-3.2.1.jar:3.2.1]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:105) ~[maven-core-3.2.1.jar:3.2.1]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:629) ~[org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:779) ~[org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) ~[org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) ~[org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) ~[org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:913) ~[org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:775) ~[org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:188) ~[org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:753) [org.eclipse.m2e.editor_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$6.run(MavenPomEditor.java:1073) [org.eclipse.m2e.editor_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml: end tag name </dependency> must match start tag name <dependencies> from line 7 (position: START_TAG seen ...<dependencies></dependency>... @7:28)  @ line 7, column 28
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:195) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:499) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:256) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:145) ~[maven-core-3.2.1.jar:3.2.1]
+	... 15 common frames omitted
+2016-07-30 11:51:39,988 [Worker-130] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:558) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:567) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:511) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:466) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:336) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1$1.call(ProjectRegistryRefreshJob.java:95) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1344) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:93) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependency> must match start tag name <dependencies> from line 7 (position: START_TAG seen ...<dependencies></dependency>... @7:28) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:127) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:91) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:556) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	... 18 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependency> must match start tag name <dependencies> from line 7 (position: START_TAG seen ...<dependencies></dependency>... @7:28) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:1724) ~[plexus-utils-3.0.17.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1210) ~[plexus-utils-3.0.17.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1131) ~[plexus-utils-3.0.17.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1116) ~[plexus-utils-3.0.17.jar:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2193) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:122) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	... 20 common frames omitted
+2016-07-30 11:52:33,470 [Worker-132] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 11:52:45,451 [Worker-135] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-07-30 11:52:45,803 [Worker-135] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 11:52:46,236 [Worker-135] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BasicTesseractExampleB/src
+2016-07-30 11:52:46,274 [Worker-135] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /BasicTesseractExampleB/src overlaps with sources folder /BasicTesseractExampleB/src
+2016-07-30 11:52:46,309 [Worker-135] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /BasicTesseractExampleB/src/test/java because it overlaps with /BasicTesseractExampleB/src
+2016-07-30 11:52:48,357 [Worker-135] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 11:52:48,661 [Worker-135] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for BasicTesseractExampleB
+2016-07-30 11:52:48,694 [Worker-135] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2016-07-30 11:52:49,169 [Worker-79] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 11:55:52,988 [Worker-136] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 11:56:04,807 [Worker-138] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-07-30 11:56:05,069 [Worker-138] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 11:56:06,312 [Worker-138] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BasicTesseractExampleB/src
+2016-07-30 11:56:06,325 [Worker-138] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /BasicTesseractExampleB/src overlaps with sources folder /BasicTesseractExampleB/src
+2016-07-30 11:56:06,338 [Worker-138] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /BasicTesseractExampleB/src/test/java because it overlaps with /BasicTesseractExampleB/src
+2016-07-30 11:56:10,349 [Worker-138] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 11:56:11,438 [Worker-138] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for BasicTesseractExampleB
+2016-07-30 11:56:11,461 [Worker-138] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2016-07-30 11:56:12,271 [Worker-137] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 12:00:33,355 [Worker-142] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 12:00:33,458 [Worker-137] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.pom
+2016-07-30 12:00:34,445 [Worker-137] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.pom
+2016-07-30 12:00:34,848 [Worker-137] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/40/commons-parent-40.pom
+2016-07-30 12:00:36,345 [Worker-137] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/40/commons-parent-40.pom
+2016-07-30 12:00:36,748 [Worker-137] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom
+2016-07-30 12:00:37,583 [Worker-137] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom
+2016-07-30 12:00:38,159 [Worker-137] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.jar
+2016-07-30 12:00:39,135 [Worker-137] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.jar
+2016-07-30 12:01:14,948 [Worker-134] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+2016-07-30 12:01:15,457 [Worker-142] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: BasicTesseractExampleB:BasicTesseractExampleB:0.0.1-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\ImageAnalysis-WS\BasicTesseractExampleB\pom.xml.
+2016-07-30 12:01:15,802 [Worker-134] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+2016-07-30 12:01:16,199 [Worker-134] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+2016-07-30 12:01:17,041 [Worker-134] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+2016-07-30 12:01:17,518 [Worker-134] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+2016-07-30 12:01:18,762 [Worker-134] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+2016-07-30 12:14:47,759 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:14:47,779 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 12:14:47,799 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:14:47,830 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 12:15:36,410 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:15:36,435 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 12:15:36,450 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:15:36,476 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 12:36:31,876 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:36:31,892 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 12:36:31,908 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:36:31,933 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 12:38:09,481 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:38:09,509 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 12:38:09,524 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:38:09,547 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 12:39:17,630 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:39:17,665 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 12:39:17,685 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:39:17,719 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 12:40:11,364 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:40:11,394 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 12:40:11,413 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:40:11,446 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 12:48:49,519 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:48:49,544 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 12:48:49,559 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:48:49,583 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 12:49:25,074 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:49:25,098 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 12:49:25,115 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:49:25,138 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 12:51:58,866 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:51:58,891 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 12:51:58,904 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 12:51:58,928 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 13:02:14,791 [Worker-178] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 13:02:14,828 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 13:02:14,843 [Worker-178] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 13:02:14,875 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 13:37:07,425 [Worker-189] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 13:37:07,496 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 13:37:07,521 [Worker-189] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 13:37:07,588 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 13:40:47,232 [Worker-218] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.piersy:BasicTesseractExample:1.0-SNAPSHOT @ C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\pom.xml.
+2016-07-30 13:40:54,149 [Worker-184] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 13:40:54,186 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 13:40:54,207 [Worker-184] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 13:40:54,222 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 13:44:49,854 [Worker-220] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 13:44:49,871 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 13:44:49,875 [Worker-220] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 13:44:49,895 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 13:51:09,273 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 13:51:09,311 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 13:51:09,331 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 13:51:09,346 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 15:17:35,914 [Worker-255] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:17:35,936 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 15:17:35,939 [Worker-255] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:17:35,956 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 15:20:44,432 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:20:44,467 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 15:20:44,484 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:20:44,501 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 15:22:06,874 [Worker-256] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:22:06,890 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 15:22:06,894 [Worker-256] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:22:06,912 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 15:22:58,177 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:22:58,201 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 15:22:58,214 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:22:58,227 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 15:23:42,742 [Worker-257] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:23:42,755 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 15:23:42,757 [Worker-257] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:23:42,769 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 15:25:06,291 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:25:06,316 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 15:25:06,336 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:25:06,352 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 15:40:47,236 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:40:47,250 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 15:40:47,253 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:40:47,266 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 15:42:45,831 [Worker-253] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:42:45,855 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 15:42:45,873 [Worker-253] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:42:45,886 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 15:43:19,886 [Worker-256] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:43:19,899 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 15:43:19,903 [Worker-256] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:43:19,916 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 15:44:59,913 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:45:00,019 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 15:45:00,034 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 15:45:00,059 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 16:23:07,666 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:23:07,681 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 16:23:07,684 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:23:07,699 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 16:24:29,160 [Worker-277] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:24:29,186 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 16:24:29,204 [Worker-277] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:24:29,216 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 16:27:19,652 [Worker-278] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:27:19,664 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 16:27:19,668 [Worker-278] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:27:19,681 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 16:29:45,474 [Worker-269] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:29:45,501 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 16:29:45,517 [Worker-269] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:29:45,532 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 16:31:13,076 [Worker-282] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:31:13,090 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 16:31:13,094 [Worker-282] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:31:13,109 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 16:34:52,090 [Worker-278] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:34:52,117 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 16:34:52,132 [Worker-278] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:34:52,145 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 16:35:48,551 [Worker-287] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:35:48,563 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 16:35:48,567 [Worker-287] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:35:48,580 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 16:36:37,918 [Worker-280] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:36:37,942 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 16:36:37,961 [Worker-280] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:36:37,973 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 16:52:32,891 [Worker-291] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:52:32,982 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 16:52:32,985 [Worker-291] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:52:32,999 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 16:53:28,152 [Worker-292] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:53:28,178 [Worker-292] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 16:53:28,192 [Worker-292] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 16:53:28,205 [Worker-292] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 17:05:01,418 [Worker-300] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:05:01,435 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 17:05:01,437 [Worker-300] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:05:01,450 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 17:09:42,618 [Worker-298] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:09:42,632 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 17:09:42,646 [Worker-298] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:09:42,658 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 17:10:37,854 [Worker-300] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:10:37,868 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 17:10:37,873 [Worker-300] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:10:37,887 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 17:12:17,268 [Worker-291] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:12:17,295 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 17:12:17,344 [Worker-291] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:12:17,357 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 17:14:20,806 [Worker-304] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:14:20,818 [Worker-304] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 17:14:20,821 [Worker-304] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:14:20,834 [Worker-304] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 17:14:38,001 [Worker-307] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:14:38,025 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 17:14:38,038 [Worker-307] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:14:38,051 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 17:16:40,212 [Worker-300] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:16:40,226 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 17:16:40,228 [Worker-300] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:16:40,243 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 17:26:29,106 [Worker-309] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:26:29,133 [Worker-309] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 17:26:29,148 [Worker-309] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:26:29,160 [Worker-309] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 17:30:57,130 [Worker-290] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:30:57,146 [Worker-290] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 17:30:57,149 [Worker-290] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:30:57,164 [Worker-290] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 17:38:26,572 [Worker-318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:38:26,677 [Worker-318] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 17:38:26,690 [Worker-318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:38:26,715 [Worker-318] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources
+2016-07-30 17:39:26,466 [Worker-321] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:39:26,524 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\main\resources
+2016-07-30 17:39:26,526 [Worker-321] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-07-30 17:39:26,539 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vignesh\Desktop\hackathon\BasicTesseractExample-master\src\test\resources

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="BasicTesseractExampleA">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="jersey-servlet-1.17.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-servlet-1.17/jersey-servlet-1.17">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-multipart-1.18.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-multipart-1.18/jersey-multipart-1.18">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hamcrest-core-1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hamcrest-core-1.3/hamcrest-core-1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-2.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-io-2.4/commons-io-2.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mimepull-1.9.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mimepull-1.9.3/mimepull-1.9.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.ws.rs-api-2.0-m02.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.ws.rs-api-2.0-m02/javax.ws.rs-api-2.0-m02">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javacpp-0.11.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javacpp-0.11/javacpp-0.11">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tesseract-3.03-rc1-0.11-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tesseract-3.03-rc1-0.11-sources/tesseract-3.03-rc1-0.11-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tesseract-3.03-rc1-0.11-windows-x86_64.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tesseract-3.03-rc1-0.11-windows-x86_64/tesseract-3.03-rc1-0.11-windows-x86_64">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="asm-3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/asm-3.1/asm-3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tesseract-3.03-rc1-0.11.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tesseract-3.03-rc1-0.11/tesseract-3.03-rc1-0.11">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.3.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.3.2/commons-fileupload-1.3.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="leptonica-1.71-0.11.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/leptonica-1.71-0.11/leptonica-1.71-0.11">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.servlet-api-3.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.servlet-api-3.0.1/javax.servlet-api-3.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="leptonica-1.71-0.11-windows-x86_64.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/leptonica-1.71-0.11-windows-x86_64/leptonica-1.71-0.11-windows-x86_64">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-core-1.11.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-core-1.11/jersey-core-1.11">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-server-1.17.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-server-1.17/jersey-server-1.17">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="BasicTesseractExampleA"/>
+        <property name="java-output-path" value="/BasicTesseractExampleA/build/classes"/>
+    </wb-module>
+</project-modules>

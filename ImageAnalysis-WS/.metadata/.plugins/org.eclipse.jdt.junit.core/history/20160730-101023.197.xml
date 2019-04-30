@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BasicTesseractExampleTest" project="BasicTesseractExample" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="BasicTesseractExampleTest" time="9.9">
+    <testcase name="givenTessBaseApi_whenImageOcrd_thenTextDisplayed" classname="BasicTesseractExampleTest" time="9.9"/>
+  </testsuite>
+</testrun>
